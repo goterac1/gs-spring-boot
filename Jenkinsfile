@@ -14,7 +14,7 @@ pipeline {
         VERSION     = '0.1.0'                    // update based on pom.xml version
 
         PACKAGING   = 'jar'
-        FILE        = "target/${ARTIFACT_ID}-${VERSION}.jar"
+        FILE        = "target/demo-0.0.1-SNAPSHOT.jar"
 
         NEXUS_USER  = 'admin'
         NEXUS_PASS  = 'admin'
